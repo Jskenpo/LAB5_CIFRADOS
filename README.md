@@ -74,6 +74,22 @@ Tasa de error        : 60.00%
 
 ---
 
+## Streamlit
+
+Para ejecutar la aplicación de Streamlit, se añadió un Dockerfile que permite desplegar la aplicación en un contenedor.
+
+``` bash
+docker build -t cifrados-lab-5 .
+```
+
+``` bash
+docker run -p 8501:8501 cifrados-lab-5
+```
+
+Una vez ejecutado el contenedor, puedes acceder a la aplicación en tu navegador en `http://localhost:8501`.
+
+---
+
 ## ✍️ Autores
 
 * Nombre: Jose santisteban, Mark Albrand
